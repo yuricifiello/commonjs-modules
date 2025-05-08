@@ -1,6 +1,3 @@
-const creaPersona = (firstName, lastName) => ({ firstName, lastName });
+const fullName = (firstName, lastName) => ({ firstName, lastName });
 
-const persona = creaPersona("Yuri", "Cifiello");
-console.log(persona);
-
-module.exports = { persona };
+module.exports = { fullName };

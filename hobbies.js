@@ -4,8 +4,4 @@ const createHobbies = (hobbyOne, hobbyTwo, hobbyThree) => [
   hobbyThree,
 ];
 
-const hobbies = createHobbies("lettura", "pittura", "sport");
-
-console.log(hobbies);
-
-module.exports = { hobbies };
+module.exports = { createHobbies };
